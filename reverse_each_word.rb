@@ -5,5 +5,5 @@ def reverse_each_word(string)
     returnedArray << word.reverse
   end
   newString = returnedArray.join(" ").to_s
-  puts "newString = #{newString}"
+  return newString
 end
